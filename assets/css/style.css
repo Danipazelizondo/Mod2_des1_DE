@@ -12,8 +12,10 @@
 .seccion-contactos {
     display: flex;
     flex-direction: column;
+    max-width: 400px;
+    width: 100%;
     gap: 50px;
-    padding:20px 20px;
+    padding:20px 10px;
 }
 
 .estado-usuario {
@@ -21,6 +23,13 @@
     justify-content: space-between;
     align-items: center;
     gap: 20px;
+    padding-inline-start: 40px;
+    font-size: 20px;
+}
+
+.estado-usuario p {
+    color: #BEC1BB;
+    font-size: 15px;
 }
 
 .datos-usuario {
@@ -30,13 +39,44 @@
     gap: 20px;
 }
 
-.estado-contactos {
+.sidebar {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.contact-list {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    list-style: none;
+    gap: 20px;
+}
+
+.tarjeta-contacto {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.estado-contacto {
+    font-size: 20px;
+
+}
+
+
+.nuevo-chat {
+    padding-inline-start: 40px
+}
+
+.seccion-principal {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    gap: 20px;
-    padding: 10px 0px;
-    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 2;
 }
 
 .foto-usuario {
@@ -46,17 +86,15 @@
 .foto-usuario img {
     max-width: 100%;
     border-radius: 50%
-
 }
 
 .foto-contacto{
-    max-width: 120px;
+    max-width: 100px;
 }
 
 .foto-contacto img {
     max-width: 100%;
     border-radius: 50%
-
 }
 
 .footer {
