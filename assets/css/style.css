@@ -1,0 +1,21 @@
+.header {
+    background-color: #FFF;
+}
+
+.foto-usuario {
+    max-width: 80px;
+}
+
+.foto-usuario img{
+    max-width: 100%;
+    border-radius: 50%
+}
+
+.foto-contacto{
+    max-width: 120px;
+}
+
+.foto-contacto img{
+    max-width: 100%;
+    border-radius: 50%
+}
