@@ -1,11 +1,42 @@
 *{
-    margin: 5px;
+    margin: 0px;
     box-sizing: border-box;
 }
 
 .main {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+.seccion-contactos {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding:20px 20px;
+}
+
+.estado-usuario {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.datos-usuario {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.estado-contactos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px 0px;
+    list-style: none;
 }
 
 .foto-usuario {
@@ -26,4 +57,10 @@
     max-width: 100%;
     border-radius: 50%
 
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
