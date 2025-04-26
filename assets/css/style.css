@@ -1,21 +1,29 @@
-.header {
-    background-color: #FFF;
+*{
+    margin: 5px;
+    box-sizing: border-box;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
 }
 
 .foto-usuario {
     max-width: 80px;
 }
 
-.foto-usuario img{
+.foto-usuario img {
     max-width: 100%;
     border-radius: 50%
+
 }
 
 .foto-contacto{
     max-width: 120px;
 }
 
-.foto-contacto img{
+.foto-contacto img {
     max-width: 100%;
     border-radius: 50%
+
 }
