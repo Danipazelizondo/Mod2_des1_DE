@@ -1,5 +1,6 @@
 *{
     margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
 }
 
@@ -7,6 +8,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #E8EBE4;
 }
 
 .seccion-contactos {
@@ -14,21 +16,24 @@
     flex-direction: column;
     max-width: 400px;
     width: 100%;
-    gap: 50px;
-    padding:20px 10px;
+    gap: 30px;
+    border-right: 1px solid #bec1bb;
+    border-bottom: 3px solid #bec1bb;
+    background-color: white;
+    padding-left: 20px;
 }
 
 .estado-usuario {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 20px;
-    padding-inline-start: 40px;
+    padding: 15px;
     font-size: 20px;
+    border-bottom: 3px solid #bec1bb;
 }
 
 .estado-usuario p {
-    color: #BEC1BB;
+    color: #828485;
     font-size: 15px;
 }
 
@@ -42,6 +47,7 @@
 .sidebar {
     display: flex;
     flex-flow: column nowrap;
+    border-top: 3px solid #bec1bb;
 }
 
 .contact-list {
@@ -50,25 +56,41 @@
     align-items: flex-start;
     justify-content: flex-start;
     list-style: none;
-    gap: 20px;
 }
 
 .tarjeta-contacto {
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
+    border-bottom: 3px solid #bec1bb;
     gap: 20px;
-
+    padding: 15px;
+    max-width: 100%;
 }
 
 .estado-contacto {
     font-size: 20px;
-
+    width: 300px;
+    max-width: 100%;
 }
 
 
 .nuevo-chat {
-    padding-inline-start: 40px
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.nuevo-chat button {
+    background-color: #A491D2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    width: 200px;
+    height: 50px;
 }
 
 .seccion-principal {
@@ -77,10 +99,28 @@
     justify-content: space-between;
     align-items: center;
     flex-grow: 2;
+    text-align: center;
+    max-height: 100%;
+    max-width: 100%;
+    font-size: 25px;
+    gap: 30px;
+    background-color: #E8EBE4;
+}
+
+.seccion-principal h1 {
+    font-size: 70px;
+}
+.seccion-principal span {
+    font-weight: bold;
+}
+
+.logo img {
+    height: 350px;
+    max-height: 100%;
 }
 
 .foto-usuario {
-    max-width: 80px;
+    max-width: 68px;
 }
 
 .foto-usuario img {
@@ -88,13 +128,13 @@
     border-radius: 50%
 }
 
-.foto-contacto{
-    max-width: 100px;
+.foto-contacto {
+    max-width: 80px;
 }
 
 .foto-contacto img {
     max-width: 100%;
-    border-radius: 50%
+    border-radius: 50%;
 }
 
 .footer {
